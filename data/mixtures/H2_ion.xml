@@ -1,0 +1,12 @@
+<!-- Neutral H2 mixture -->
+<mixture mechanism="H2_ion_mec">
+
+    <species>
+        e- H2 H H+ H3+ He H-
+    </species>
+
+    <element_compositions default="H2">
+        <composition name="H2"> H2:1.0 </composition>
+    </element_compositions>
+
+</mixture>

@@ -1,0 +1,16 @@
+<!-- O2 dissociation mechanism -->
+<mechanism name="H2_ion_mec">
+
+    <arrhenius_units A="mol,m,s,K" E="kcal,mol,K" />
+
+    <reaction formula="H++H2+H2=H3++H2">
+        <arrhenius A="3.23e-10" n="-0.5" T="0.0" />
+    </reaction>
+
+    <reaction formula="H-+He=>H+He+e-">
+        <arrhenius A="1.18e5" n="0.8195" T="14681.0" />
+    </reaction>    
+
+</mechanism>
+
+

@@ -1,0 +1,12 @@
+<!-- Neutral H2 mixture -->
+<mixture mechanism="none">
+
+    <species>
+        H2 H
+    </species>
+
+    <element_compositions default="H2">
+        <composition name="H2"> H2:1.0 </composition>
+    </element_compositions>
+
+</mixture>
